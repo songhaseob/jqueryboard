@@ -1,0 +1,31 @@
+@charset "UTF-8";
+@import url(style.css);
+
+/* sub_1_1_mypage_trade */
+
+
+#wrapper .sub_menu_nav{
+	
+}
+#wrapper .sub_menu_nav ul{
+	
+}
+#wrapper .sub_menu_nav>ul>li{
+	float: left;
+	margin : 5px;
+}
+
+#wrapper .sub_menu_nav > ul:after {
+  content: attr(class);
+  display: block;
+  clear: both;
+
+}
+
+#wrapper .sub_menu_nav ul > li.active > a,
+#wrapper .sub_menu_nav ul > li:hover > a,
+#wrapper .sub_menu_nav ul > li > a:hover {
+  border-bottom : 2px solid #000;
+
+}
+

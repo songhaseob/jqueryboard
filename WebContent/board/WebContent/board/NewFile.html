@@ -1,0 +1,186 @@
+ 
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/sub_mypage.css">
+<style>
+ body {
+            color: #555;
+            background: #eeeeee;
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;}
+
+        h1 {
+            padding: 50px 0;
+            font-weight: 400;
+            text-align: center;}
+
+        p {
+            margin: 0 0 20px;
+            line-height: 1.5;}
+
+        .main {
+            min-width: 320px;
+            max-width: 800px;
+            padding: 50px;
+            margin: 0 auto;
+            background: #ffffff;}
+
+        section {
+            display: none;
+            padding: 20px 0 0;
+            border-top: 1px solid #ddd;}
+
+        /*라디오버튼 숨김*/
+          input {
+              display: none;}
+
+       	 label {
+            display: inline-block;
+            margin: 0 0 -1px;
+            padding: 15px 25px;
+            font-weight: 600;
+            text-align: center;
+            color: #bbb;
+            border: 1px solid transparent;}
+
+        label:hover {
+            color: #2e9cdf;
+            cursor: pointer;}
+
+        /*input 클릭시, label 스타일*/
+        
+        input:checked + label {
+              color: #555;
+              border: 1px solid #ddd;
+              border-top: 2px solid #2e9cdf;
+              border-bottom: 1px solid #ffffff;}
+
+        #tab1:checked ~ #content1,
+        #tab2:checked ~ #content2,
+        #tab3:checked ~ #content3,
+        #tab4:checked ~ #content4 {
+            display: block;}
+</style>
+</head>
+<body>
+	<div id="container">
+		<div class="header">
+		
+			<!-- nav bar 시작 -->
+			<div id="navbar">
+				<div class="inner">
+					<div class="logo">
+						<h1><a href="">gifti-ILJO</a></h1>
+					</div>
+					<div class="search">
+						<input type="text" class="search_area" id="search" name="search">
+					</div>
+					<div class="right_menu">
+						<p><a href="#">상품</a></p>
+						<p><a href="#">고객센터</a></p>
+					</div>			
+				</div>
+			</div>	
+			<!-- nav bar 끝 -->
+			
+			<!-- login bar 시작 -->
+			<div id="loginbar">
+				<ul>
+					<li class ="loginbar"><a href="#">홍길동님</a></li>
+					<li class ="loginbar"><a href="#">마이페이지</a></li>
+					<li class ="loginbar"><a href="#">상품등록</a></li>
+					<li class ="loginbar"><a href="#">포인트충전</a></li>
+					<li class ="loginbar"><a href="#">로그아웃</a></li>
+				</ul>
+			</div>
+			<!-- login bar 끝 -->
+			
+		</div>
+		<!-- header 끝 -->
+		
+		
+		<!-- wrapper 시작 -->
+		<div id="wrapper">
+			<div class="main">
+    			<input id="tab1" type="radio" name="tabs" checked> <!--디폴트 메뉴-->
+    			<label for="tab1">공지사항</label>
+
+    			<input id="tab2" type="radio" name="tabs">
+    			<label for="tab2">FAQ</label>
+
+   				<section id="content1">
+       			<p>
+       			tab menu1의 내용<br>
+       			SDFSDFSDF<br>
+       			SDFSDF<br>
+       			SDFSDFS<br>
+       			SDFSDF<br>
+       			SDFSDF<br>
+       			SDFSDF<br>
+       			SDFSDF<br>
+       			SDFSDF<br>
+       			SDFSDF<br>
+       			SDFSDF<br>
+       			SDFSDF<br>
+       			SDFSDF<br>
+       			SDFSDF<br>
+       			SDFSDF<br>
+       			SDFSDF<br>
+       			SDFSDF<br>
+       			SDFSDF<br>
+       			SDFSDF<br>
+       			SDFSDF<br>
+       			SDFSDF<br>
+       			SDFSDF<br>
+       			SDFSDF<br>
+       			SDFSDF<br>
+       			</p>
+    			</section>
+
+    			<section id="content2">
+        		<p>
+        		tab menu2의 내용</p>
+        		tab menu1의 내용<br>
+       			SDFSDFSDF<br>
+       			SDFSDF<br>
+       			SDFSDFS<br>
+       			SDFSDF<br>
+       			SDFSDF<br>
+       			SDFSDF<br>
+       			SDFSDF<br>
+       			SDFSDF<br>
+       			SDFSDF<br>
+       			SDFSDF<br>
+       			SDFSDF<br>
+       			SDFSDF<br>
+       			SDFSDF<br>
+       			SDFSDF<br>
+       			SDFSDF<br>
+       			SDFSDF<br>
+       			SDFSDF<br>
+       			SDFSDF<br>
+       			SDFSDF<br>
+       			SDFSDF<br>
+       			SDFSDF<br>
+       			SDFSDF<br>
+       			SDFSDF<br>
+    			</section>
+			</div>
+		</div>
+		<!-- wrapper 끝 -->	
+		
+		
+		<!-- footer 시작 -->
+		<div id="footer">
+			<p>Copyright ©gifti-ILJO Rights Reserved.</p>
+		</div>
+		<!-- footer 끝 -->
+		
+	</div>
+</body>
+</html>

@@ -1,0 +1,299 @@
+@charset "UTF-8";
+
+@import url(sub_mypagehs.css);
+
+/* sub_mypage 스타일 시작 */
+
+/* 메뉴탭 CSS시작 */
+
+/*라디오버튼 숨김*/
+.body #wrapper .main .tab {
+	display: none;
+}
+
+.body #wrapper .main .lb {
+	display: inline-block;
+	margin: 0 0 -1px;
+	padding: 15px 25px 15px 0;
+	font-weight: 600;
+	text-align: center;
+	color: #bbb;
+	border: 1px solid transparent;
+	font-size: 20px;
+}
+
+.body #wrapper .main .lb:hover {
+	color: #c8c8c8;
+	cursor: pointer;
+}
+
+/*input 클릭시, label 스타일*/
+.body #wrapper .main input:checked+label>span {
+	color: #333;
+	border-bottom: 3px solid #ffb400;
+    padding-bottom: 5px;
+}
+
+#tab1:checked ~ #content1, #tab2:checked ~ #content2, 
+#tab3:checked ~	#content3, #tab4:checked ~ #content4 {
+	display: block;
+}
+
+.body #wrapper .main .lb .lb_hover{
+	border-bottom: 3px solid #ffb400;
+    padding-bottom: 5px;
+}
+
+.body #wrapper .main section {
+	display: none;
+	padding: 35px 0 50px;
+}
+
+/* 메뉴탭 CSS끝 */
+
+
+
+.body #wrapper .main #content1{
+	
+}
+
+.body #wrapper .main .mysection{
+    margin-bottom: 50px;
+}
+
+.body #wrapper .main h3{
+	font-size : 20px;
+	padding-bottom: 10px;	
+}
+
+.body #wrapper .main h3 .dot{
+	font-size: 10px;
+    line-height: 10px;
+    display: inline-block;
+    margin: 0px 10px 5px 0;
+    vertical-align: middle;
+    color: #ffb400;
+}
+
+.body #wrapper .main .deal {
+    border: 2px solid #eee;
+    display: block;
+    background: #f5f5f5;
+    width: 100%;
+    height: auto;
+}
+
+.body #wrapper .main .deal .pr{
+	color: #333;
+    height: 30px;
+    font-size: 15px;
+    padding: 0 20px;
+    float: left;
+    line-height: 30px;
+}
+
+.body #wrapper .main .deal .form_wrapper{
+	height: 50px;
+}
+
+.body #wrapper .main .deal .form_wrapper form{
+	margin: 20px;
+}
+
+.body #wrapper .main .deal .form_wrapper input{
+	width: 135px;
+	height: 28px;
+    border: 1px solid #ddd;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.body #wrapper .main .deal .form_wrapper .term{
+	width: 80px;
+    height: 30px;
+    background: white;
+    color: #666;
+    font-size: 14px;
+    line-height: 14px;
+    border: 1px solid #ddd;
+    float: left;
+    margin: 0 3px;
+}
+
+
+
+.body #wrapper .main .deal .form_wrapper #search {
+	height: 30px;
+	background: #eee;
+	color: #222;
+	line-height: 15px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+/* 상품명/브랜드명,조회기간 */
+.text {
+	font-size: 20px;
+	color: black;
+}
+
+
+/* 주문일시 상품명 주문번호 결제금액 진행상태 */
+.body #wrapper .main .ct {
+    color: #555;
+    font-size: 15px;
+    display: table-cell;
+    text-align: center;
+    width: 25%;
+    padding: 6px;
+}
+
+.body #wrapper .main .txt_bg{
+	width: 100%;
+    display: table;
+    background: #f5f5f5;
+    border: 2px solid #eee;
+}
+
+.body #wrapper .main .mysection ul{
+	padding: 10px;
+	border-bottom: 1px solid #ddd;
+}
+
+
+.body #wrapper .main .mysection ul div{
+    display: table;
+    width : 100%;
+    height: 30px;
+    text-align: center;
+}
+
+.body #wrapper .main .mysection ul li span{
+    display: table-cell;
+    width: 25%;
+    text-align: center;
+}
+
+
+
+/* 섹션2 */
+
+
+.body #wrapper .main .mysection ul .li_width label{
+    width: 50%;
+    text-align: center;
+    display: inline-block;
+}
+
+.body #wrapper .main .mysection ul .li_width span{
+	    display: inline-block;
+}
+
+
+.body #wrapper .main .mysection ul li .span_width{
+    width: 33.3333%;
+}
+
+.body #wrapper .main #price_width1{
+	padding-left: 15px;
+}
+
+.body #wrapper .main #price_width2{
+	padding-right: 25px;
+}
+
+#content2 .margin_none{
+    margin-bottom: 5px!important;
+}
+
+
+/*상품명 브랜드명 텍스트(거래내역조회)*/
+.deal #tt {
+	width: 540px;
+	height: 30px;
+}
+/*조회버튼(거래내역조회)*/
+
+
+
+/*포인트 현황(총 충전포인트, 총 사용포인트, 사용가능포인트)*/
+
+
+
+section .label_wrap{
+	
+} 
+
+section .label_wrap label{
+	
+} 
+
+
+
+/*일시 구분 금액*(포인트정보)*/
+.po1 {
+	display: inline;
+	margin-left: 160px;
+	color: black;
+	font-size: 20px;
+}
+
+
+/*내 정보 수정에서 이름아이디비밀번호핸드폰번호*/
+
+.regi_form{
+    padding: 20px;
+    background: #f5f5f5;
+    border: 2px solid #eee;
+}
+
+.regi_form ul {
+	padding-left: 10px;
+}
+
+.regi_form ul li {
+	padding: 5px;
+}
+
+.regi_form ul li .label {
+	display: inline-block;
+	width: 130px;
+	height: 30px;
+}
+
+/* 회원정보변경 입력란 */
+
+.regi_form ul li .join {
+	width: 200px;
+	height: 25px;
+    border: 1px solid #ddd;
+}
+
+
+/*내정보수정하기 밑에 div(탈퇴내용,탈퇴버튼*/
+
+#underdiv {
+	padding: 25px 15px 10px;
+    font-size: 15px;
+    color: #999;
+}
+
+#underdiv p{
+    display: inline-block;	
+}
+
+#exit {
+	background: #eaeaea;
+    color: #333;
+    font-size: 15px;
+    line-height: 15px;
+    padding: 5px 30px;
+    width: 135px;
+    height: 28px;
+    border: 1px solid #ddd;
+    margin: 0 3px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+

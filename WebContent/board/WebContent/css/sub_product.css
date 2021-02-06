@@ -1,0 +1,432 @@
+@charset "UTF-8";
+@import url(sub_product.css);
+
+
+
+/* sub_Product_Registration.jsp(상품등록)) 스타일 시작*/ 
+
+ 
+#container #content_wrap .body{
+	text-align : left;
+}
+
+#container #content_wrap .footer_padding{
+	padding-bottom : 50px;
+}
+
+
+#wrapper .regi_form {
+	padding-top:30px;
+}
+
+
+#wrapper .regi_form .regi_row{
+	padding : 10px;
+}
+
+#wrapper .regi_form .regi_row input{
+	padding: 5px 10px;
+    width: 55%;
+    height: 25px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #555;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+}
+
+
+#wrapper .regi_form .regi_row label{ 
+	width : 23%;
+	text-align : right;
+	display: inline-block;
+    padding-right: 10px;
+    vertical-align: top;
+}
+
+#wrapper .regi_form .regi_row select{
+	padding: 7px 10px;
+	width: 57%;
+	color: #555;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+}
+
+#wrapper .regi_form .regi_row textarea{
+	width : 609px;
+	height: 100px;
+}
+
+#wrapper .regi_form .btn{
+	width : 100%;	
+	margin: 50px 0 50px;
+    padding-bottom: 30px;	
+}
+#wrapper .regi_form .btn button{
+	width : 105%;	
+	margin : auto;
+}
+
+
+#wrapper .regi_form .btn button span{
+    background: #ffb400;
+    color: #555;
+    border-radius: 15px;
+    padding: 20px 264px;
+    font-size: 20px;
+    letter-spacing: 0.2em;
+}
+
+#wrapper .regi_form .btn span:hover {
+	background: #ffa500!important;
+}
+
+/* sub_Product_Registration.jsp(상품등록) 스타일 끝*/ 
+
+
+
+
+
+
+/* sub_regi_product.jsp(포인트충전) 스타일 시작*/ 
+
+
+.body .body2{
+	background: #f5f5f5;
+	width : 100%;
+	height : 100%;
+}
+.body .body2 .wrapper2{
+    max-width: 1100px;
+	height : 100%;
+    margin: auto;
+    margin-top: 10px;
+    text-align : left;
+}
+
+
+#wrapper .sub_content{
+	padding-top:40px;
+}
+
+#wrapper .sub_content .txt_area{
+    margin: 6px 0 30px 10px;
+	display: inline-block;
+}
+
+#wrapper .sub_content .txt_area p{
+	display: inline-block;
+    background: linear-gradient(to bottom, #ffffff 0%, #ffe668 0%);
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 20px 12px;
+    font-size: 18px;
+    color: #444;
+    font-family: 'NanumSquare';
+    font-weight: 700;
+    padding-bottom: 4px;
+}
+
+.body .body2 .wrapper2 .card-body .card_body_title{
+	font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    padding-top: 45px;	
+}
+
+.body .body2 .wrapper2 .card-body .box-radio-input{
+	padding: 7px;
+}
+.body .body2 .wrapper2 .card-body .box-radio-input input{
+	padding : 10px;
+}
+.body .body2 .wrapper2 .card-body .box-radio-input span {
+	font-size: 18px;
+    letter-spacing: 0.023em;
+    margin-left: 5px;
+    color: #555;
+
+}
+
+.body .body2 .wrapper2 .card-body .txt_notice{
+    font-size: 17px;
+    color: #d61600;
+    padding: 40px 0;
+    font-family: 'NanumSquare';
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.body .body2 .wrapper2 .card-body .txt_notice strong{
+	font-weight: 900;
+}
+
+.body .body2 .wrapper2 .card-body .btn{
+	height : 100px;
+    padding-bottom: 35px;	
+}
+
+.body .body2 .wrapper2 .card-body .btn button{
+}
+
+
+.body .body2 .wrapper2 .card-body .btn  button span{
+    background: #ffb400;
+    color: #555;
+    border-radius: 15px;
+    padding: 18px 150px;
+    font-size: 20px;
+}
+
+.body .body2 .wrapper2 .card-body .btn  button span:hover {
+	background: #ffa500!important;
+}
+
+
+/* sub_regi_product.jsp(포인트충전) 스타일 끝*/ 
+
+
+/* sub_product.jsp(상품 - 상세페이지) 스타일 시작*/ 
+
+#wrapper{
+	
+}
+#wrapper .sub_menu_wrapper .sub_title h1 {
+	font-family: 'NanumSquare';
+	font-size: 17px;
+}
+#wrapper .sub_menu_wrapper .sub_title h1 span{
+	color: #008a44;
+    font-weight: 700;
+}
+
+#wrapper .middle_product{
+	margin-top: 20px;
+}
+
+
+#wrapper .middle_product .middle_product1{
+	max-width: 328px;
+    position: relative;
+    padding-bottom: 10px;
+    overflow: hidden;
+    float: left;
+    margin-right: 30px;
+}
+
+#wrapper .middle_product .middle_product1 img{
+	border: 1px solid #eee;
+    float: left;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#wrapper .middle_product .middle_product_con{
+	display: inline-block;
+}
+
+#wrapper .middle_product .middle_product_con .title_brand{
+    font-size: 15px;
+    color: #888;
+    font-weight: 600;
+    font-family: 'NanumSquare';
+    padding-top: 10px;
+}
+#wrapper .middle_product .middle_product_con .title_product_name{
+	font-size: 30px;
+    font-family: 'NanumSquare';
+    font-weight: 700;
+    color: #222;
+}
+
+#wrapper .middle_product .middle_product_con .sale{
+    font-size: 23px;
+    color: #e64000;
+    font-family: 'NanumSquare';
+    font-weight: 900;
+}
+
+#wrapper .middle_product .middle_product_con .price_wrap{
+    padding-bottom: 15px;
+}
+
+ #wrapper .middle_product .middle_product_con .strike{
+	font-size: 18px;
+    color: #888;
+    display: inline-block;
+    letter-spacing: 0.03em;
+}
+
+ #wrapper .middle_product .middle_product_con .price{
+    font-size: 30px;
+    color: #222;
+    display: inline-block;
+    padding-left: 8px;
+    font-weight: 900;
+    letter-spacing: 0.03em;
+    line-height: 1;
+}
+
+
+#wrapper .middle_product .middle_product_con #buyProduct{
+	background: #ffb400;
+    color: #555;
+    border-radius: 15px;
+    padding: 12px 150px;
+    font-size: 17px;
+}
+
+#wrapper .middle_product #buyProduct:hover{
+	background : #ffa500;
+}
+
+#wrapper .middle_product .prod_btn{
+	clear: both;
+    padding-top: 5px;
+}
+
+#wrapper .middle_product .prod_btn button{
+	width: 160px;
+    height: 30px;
+    background: #eee;
+}
+
+#wrapper .middle_product .prod_btn button:hover{
+	background :#ccc;
+	
+}
+
+
+#wrapper .middle_product .prod_btn #updateProduct{
+	margin-right:5px;
+}	
+	
+	
+/* 상품설명 */
+#wrapper .middle_product .middle_product_ex{
+    clear: both;
+    padding-bottom: 30px;
+}
+
+#wrapper .middle_product .middle_product_ex h3{
+    text-align: left;
+    font-size: 25px;
+    font-family: 'NanumSquare';
+    font-weight: 600;
+    color: #222;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 15px;
+    padding-top: 20px;
+}
+
+#wrapper .middle_product .middle_product_ex p{
+	padding-top : 5px;
+}
+
+#wrapper .middle_product .middle_product_ex .default_txt{
+	padding-top: 15px;
+    margin-top: 20px;
+    border-top: 2px solid #eee;
+}
+
+#wrapper .middle_product .middle_product_ex .default_txt p{
+	font-size: 13px;
+    font-family: 'Lato';
+    line-height: 1.8;
+    margin: 0;
+    color: #777;
+}
+
+#wrapper .middle_product .middle_product_ex .default_txt_title{
+	
+}
+
+.body2 .wrapper2 .under_sales{
+}
+
+.body2 .wrapper2 .under_sales h2{
+	text-align: left;
+    font-size: 25px;
+    font-family: 'NanumSquare';
+    font-weight: 600;
+    color: #222;
+    border-bottom: 1px solid #999;
+    padding-bottom: 15px;
+    padding-top: 60px;
+}
+
+
+.body2 .wrapper2 .under_sales .under_sales1{
+	padding-top : 20px;
+}
+
+.body2 .wrapper2 .under_sales .under_sales1 p{
+    line-height: 45px;
+}
+
+.body2 .wrapper2 .under_sales .under_sales1 img{
+    padding-right : 10px;
+    width: auto;
+}
+
+.body2 .wrapper2 .under_sales .under_sales1 span{
+    font-size: 17px;
+    padding-right: 10px;
+}
+
+.body2 .wrapper2 .under_sales .under_sales1 strong{
+	font-weight: 700; 
+}
+
+.body2 .wrapper2 .under_sales .under_sales1 .seller{
+	float : left;
+}
+
+.body2 .wrapper2 .under_sales .under_sales1 .seller span{
+	font-size: 18px;
+    padding-right: 10px;
+    font-family: 'NanumSquare';
+}
+
+
+.body2 .wrapper2 .under_sales .under_sales1 .selling_count{
+	float : left;
+	padding-left:30px;
+	color: #008a44;
+}
+
+.body2 .wrapper2 .under_sales .under_sales1 .report_count{
+	padding-left:20px;
+	clear:both;
+	display : inline-block;
+	color: #bf0000;
+}
+
+.body2 .wrapper2 .under_sales .under_sales1 .under_input{
+
+	padding-bottom : 50px; 
+	width : 100%;
+	clear: both;
+}
+
+.body2 .wrapper2 .under_sales .under_sales1 .under_input input{
+    background: #ccc;
+    color: #333;
+    border-radius: 15px;
+    padding: 5px 50px;
+    font-size: 15px;
+    border: none;
+    margin-top: 20px;	
+}
+
+.body2 .wrapper2 .under_sales .under_sales1 .under_input input:hover{
+	background : #bf0000;	
+	color : #fff;
+}
+
+
+
+

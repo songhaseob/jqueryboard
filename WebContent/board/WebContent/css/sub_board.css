@@ -1,0 +1,171 @@
+@charset "UTF-8";
+@import url(style.css);
+@import url(sub_mypage.css);
+
+/*.panel-default 게시판 디폴트 css 수정*/
+.panel-default>.panel-heading{
+	background: #fff!important;
+/* 	border-bottom: 1px solid #999!important; */
+}
+
+.panel-group .panel{
+	border : none!important;
+	box-shadow :none!important;
+}
+
+.body .sub_menu_nav{
+	background : #efefef;
+	margin-bottom: 50px;
+}
+
+.body .sub_menu_nav ul{
+	max-width: 1100px;
+    height: 70px;
+    margin: auto;
+}
+
+.body .sub_menu_nav ul li{
+    float: left;
+    line-height: 70px;
+    font-size: 16px;
+    width: 80px;
+    text-align: center;    
+}
+
+.body .sub_menu_nav ul .active{
+	background : #fff;
+}
+
+.body .sub_menu_nav ul li a:hover{
+	font-weight: 700;
+}
+
+.body #wrapper{}
+    
+.body #wrapper .sub_menu_wrapper{}   
+
+.body #wrapper .sub_menu_wrapper .sub_title{
+}
+
+.body #wrapper .sub_menu_wrapper .sub_title h2{
+	border-bottom: 2px solid #222!important;
+    padding-bottom: 30px!important;
+}
+
+.body #wrapper .sub_menu_wrapper .sub_title .notice_board{}
+
+.body #wrapper .sub_menu_wrapper .sub_title .notice_board_title{
+	display: table;
+    width: 100%;
+    font-size: 17px;
+    font-family: 'NanumSquare';	
+}
+
+.body #wrapper .sub_menu_wrapper .sub_title .notice_board_title span{
+    font-weight: bold;
+    padding: 8px 15px;
+    border-bottom: solid 1px #333;
+}
+
+.body #wrapper .sub_menu_wrapper .sub_title .notice_board_title .board_classify_title{
+	display: inline-block;
+	width: 20%;
+    text-align: center;
+    padding-bottom: 18px;
+}
+
+.body #wrapper .sub_menu_wrapper .sub_title .notice_board_title .board_title_title{
+	display: inline-block;
+	width: 55%;
+    text-align: center;
+    padding-bottom: 18px;
+}
+
+.body #wrapper .sub_menu_wrapper .sub_title .notice_board_title .board_date_title{
+	display: inline-block;
+	width: 25%;
+    text-align: center;
+    padding-bottom: 18px;
+}
+
+.body #wrapper .sub_menu_wrapper .sub_title .sub_content{
+	padding-top : 0;
+}
+
+
+
+/* ajax안에 #accordion ,  .panel-group*/
+
+
+#wrapper .sub_menu_wrapper .sub_content .panel-group{}
+
+#wrapper .sub_menu_wrapper .sub_content .panel-group .panel-default{
+	border-bottom: solid 1px #d5d5d5!important;
+    display: table;
+    width: 100%;
+}
+
+#wrapper .sub_menu_wrapper .sub_content .panel-group .panel-default .panel-heading{
+	padding : 0;
+}
+
+#wrapper .sub_menu_wrapper .sub_content .panel-group .panel-default .panel-heading .panel-title{}
+
+#wrapper .sub_menu_wrapper .sub_content .panel-group .panel-default .panel-heading .panel-title a{
+	width : 100%;
+}
+
+#wrapper .sub_menu_wrapper .sub_content .panel-group .panel-default .panel-heading .panel-title a span{
+	display: table-cell;
+    vertical-align: middle;
+    font-size: 15px;
+    color: #333;
+    line-height: 2.2;
+}
+
+
+#wrapper .sub_menu_wrapper .sub_content .panel-group .panel-default .panel-heading .panel-title a .board_classify{
+	color: #008a44;
+	display: inline-block;
+    width: 20%;
+    text-align: center;
+    padding-bottom: 16px;
+    padding-top: 5px;
+}
+
+#wrapper .sub_menu_wrapper .sub_content .panel-group .panel-default .panel-heading .panel-title a .board_title{
+	display: inline-block;
+	width: 54%;
+    text-align: center;
+    padding-bottom: 16px;
+    padding-top: 5px;
+}
+
+#wrapper .sub_menu_wrapper .sub_content .panel-group .panel-default .panel-heading .panel-title a .board_date{
+	display: inline-block;
+	width: 25%;
+    text-align: center;
+    padding-bottom: 16px;
+    padding-top: 5px;
+}
+
+#wrapper .sub_menu_wrapper .sub_content .panel-group .panel-default .panel-collapse{}
+
+#wrapper .sub_menu_wrapper .sub_content .panel-group .panel-default .panel-collapse .panel-body{
+	padding: 15px 80px;
+	background: #f9f9f9;
+}
+
+#wrapper .sub_menu_wrapper .sub_content .panel-group .panel-default .panel-collapse .panel-body p{}
+
+#wrapper .sub_menu_wrapper .sub_content .panel-group .panel-default .panel-collapse .panel-body p .cspan{}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <title>jQuery UI 탭메뉴 만들기 </title>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script type="text/javascript">
+  
+  $( function() {
+    $( "#accordion" ).accordion(); /* $("아코디언실행할선택자").accordion(); */
+  } );
+  </script>
+  <style type="text/css">
+    #accordion {width:50%; margin:0 auto; }
+    
+    
+  </style>
+  
+</head>
+<body>
+ 
+<div id="accordion" >
+  <h3>테스트</h3>
+  <div>
+    <p>
+    </p>
+  </div>
+  
+  <h3>테스트1</h3>
+  <div>
+    <p>
+      
+    </p>
+  </div>
+  <h3>테스트2</h3>
+  <div>
+    <p>
+      
+    </p>
+    <ul>
+      <li>테스트1</li>
+      <li>테스트2</li>
+      <li>테스트3</li>
+    </ul>
+  </div>
+  <h3>테스트</h3>
+  <div>
+    <p>
+   
+    </p>
+  </div>
+</div>
+</body>
+</html>
